@@ -1,282 +1,307 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Newline CSS Template with a video background</title>
+<!DOCTYPE HTML>
 <!--
-Newline Template
+	Spectral by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
 -->
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<html>
+	<head>
+		<title>Luca Pernie</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- <link rel="stylesheet" href="assets/fonts/font-mfizz.css"> -->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                               tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+                               });
+        </script>
+        <script type="text/javascript"
+  			src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script> 
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
+		  ga('create', 'UA-97381584-1', 'auto');
+		  ga('send', 'pageview');
 
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+		</script>
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body>
+	</head>
+	<body class="landing">
 
-        <div class="overlay"></div>
-        <section class="top-part">
-          <video controls autoplay loop>
-            <source src="videos/video.mp4" type="video/mp4">
-            <source src="videos/video.ogg" type="video/ogg">
-          Your browser does not support the video tag.
-          </video>
-        </section>
-        
-        <section class="cd-hero">
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-          <div class="cd-slider-nav">
-            <nav>
-              <span class="cd-marker item-1"></span>
-              <ul>
-                <li class="selected"><a href="#0"><div class="image-icon"><img src="img/picCERN.png"></div><h6>Who Am I</h6></a></li>
-                <li><a href="#0"><div class="image-icon"><img src="img/skills.jpg"></div><h6>My Skills</h6></a></li>
-                <li><a href="#0"><div class="image-icon"><img src="img/projects-icon.png"></div><h6>The CMS experiment at CERN</h6></a></li>
-                <li><a href="#0"><div class="image-icon"><img src="img/contact-icon.png"></div><h6>Texas A&M University</h6></a></li>
-                <li><a href="#0"><div class="image-icon"><img src="img/contact-icon.png"></div><h6>Interests</h6></a></li>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Luca Pernie</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="#whoami">Who am I</a></li>
+											<li><a href="#skills">My Skills</a></li>
+											<li><a href="#Physics">Physics</a></li>
+<!--											<li><a href="./atlasML.html">CERN Machine Learning</a></li>-->
+											<li><a href="#interests">Interests</a></li>
+											<li><a href="#cta">Contacts</a></li>
+											<!-- <li><a href="#">Sign Up</a></li> -->
+											<!-- <li><a href="#">Log In</a></li> -->
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
 
-              </ul>
-            </nav> 
-          </div> <!-- .cd-slider-nav -->
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>Luca Pernie</h2>
+							<p>Ph.D. in High Energy Physics for the CMS experiment at CERN<br/>
+							Postodoctoral fellow at Texas A&M University<br/>
+							L2 manager in Alignement Calibration and Databases</p>
+							<!-- <ul class="actions">
+								<li><a href="#" class="button special">Activate</a></li>
+							</ul> -->
+						</div>
+						<a href="#whoami" class="more scrolly">Learn More</a>
+					</section>
 
-          <ul class="cd-hero-slider">
+				<!-- One -->
+					<section id="whoami" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Who am I<br />
+								</h2>
+								<p>
+									I'm a 5th year Physics PhD student at <font color="">Yale University</font> studying experimental High Energy Physics.<br /> 
+									I apply Deep Learning to data from the ATLAS Experiment at CERN. <br />
+									In my spare time, I teach myself new foreign languages, machine learning<!-- <a href="./ml_list.html">machine learning</a> -->, and data visualization techniques. <br />
+									I truly enjoy learning. <br />
+									I believe in reproducible research. <br />
+									I love sports, technology, fine dining, and design. 
+								</p>
+							</header>
+							<footer>
+								<a href="#skills" class="button style2 down more scrolly"></a>
+							</footer>
+						</div>
+					</section>
 
-            <li class="selected">
-              <div class="heading">
-                <h1>NEWLINE</h1>
-                <span>Welcome To Web Design Agency</span>
-              </div>
-              <div class="cd-full-width first-slide">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="content first-content">
-                        <h4>Let’s Talk More About Newline</h4>
-                        <p>Newline is free CSS template by templatemo. Credits go to <a href="https://videos.pexels.com/videos/busy-street-in-the-city-1089" target="_blank">Pexels.com</a> for a video background and <a href="http://unsplash.com" target="_blank">Unsplash</a> for images. Please tell your friends about templatemo and this is a way to help back. Thank you. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum convallis mi. In dapibus auctor dictum donec mattis quis eros ultricies feugiat.</p>
-                        <div class="primary-button">
-                          <a href="#">Discover More</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>                  
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="heading">
-                <h1>About Us</h1>
-                <span>Get More Info About Our Agency</span> 
-              </div>
-              <div class="cd-half-width second-slide">   
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="content second-content">
-                        <div class="row">
-                          <div class="col-md-7 left-image">
-                            <img src="img/left-about-image.jpg">
-                          </div>
-                          <div class="col-md-5">
-                            <div class="right-about-text">
-                              <h4>Who we are?</h4>
-                              <p>Fusce neque leo, dapibus sed imperdiet sed, vulputate sed purus. Nam eget justo in nibh facilisis rhoncus. Donec et risus non mauris lobortis convallis. Aliquam id urna quis ante blandit semper.</p>
-                              <div class="primary-button">
-                                <a href="#">Discover More</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-md-7">
-                            <div class="left-about-text">
-                              <h4>What we do?</h4>
-                              <p>Nam aliquam ultrices interdum. Vivamus metus mi, accumsan a tincidunt a, efficitur id felis. Vivamus non nibh malesuada, vestibulum nulla in, iaculis sem. Aenean tincidunt faucibus ipsum, ac aliquet nunc accumsan sed. Nulla sodales nunc sit amet libero egestas, ut interdum ex congue.</p>
-                              <div class="primary-button">
-                                <a href="#">Discover More</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-5 right-image">
-                            <img src="img/right-about-image.jpg">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>                  
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="heading">
-                <h1>Featured</h1>
-                <span>We produce featured product every week</span> 
-              </div>
-              <div class="cd-half-width third-slide">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="content third-content">
-                        <div class="row">
-                          <div class="col-md-7 left-image">
-                            <img src="img/left-feature-image.png">
-                          </div>
-                          <div class="col-md-5">
-                            <div class="right-feature-text">
-                              <h4>Featured Product: <em>Newline</em></h4>
-                              <p>Lorem ipsum dolor amet, consecte adipiscing elit, quisque dictum convallis mi. In dapibus auctor dictum donec mattis quis eros ultricies feugiat. Morbi congue faucibus mi, ague blandit curabitur ac lacinia.</p>
-                              <div class="feature-list">
-                                <ul>
-                                  <p>- Suspendisse mattis finibus sem</p>
-                                  <p>- Pellentesque et urna vel lectus</p>
-                                  <p>- Vestibulum iaculis nisi dui</p>
-                                  <p>- Donec sagittis eros , ac tempus ligula</p>
-                                  <p>- Integer sapien risus, auctor</p>
-                                </ul>
-                              </div>
-                              <div class="primary-button">
-                                <a href="#">Discover More</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>                  
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="heading">
-                <h1>Our projects</h1>
-                <span>Here you can check our recent projects</span> 
-              </div>
-              <div class="cd-half-width fourth-slide">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="content fourth-content">
-                        <div class="row">
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-01.jpg" data-lightbox="image-1"><img src="img/project-item-01.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-02.jpg" data-lightbox="image-1"><img src="img/project-item-02.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-03.jpg" data-lightbox="image-1"><img src="img/project-item-03.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-04.jpg" data-lightbox="image-1"><img src="img/project-item-04.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-05.jpg" data-lightbox="image-1"><img src="img/project-item-05.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-06.jpg" data-lightbox="image-1"><img src="img/project-item-06.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-07.jpg" data-lightbox="image-1"><img src="img/project-item-07.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-08.jpg" data-lightbox="image-1"><img src="img/project-item-08.jpg"></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>                  
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="heading">
-                <h1>Contact us</h1>
-                <span>You'll be responded within 48 hrs</span> 
-              </div>
-              <div class="cd-half-width fivth-slide">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="content fivth-content">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <div class="left-info">
-                              <p>Maecenas imperdiet sagittis lacus, ut consequat velit iaculis id. Praesent eu consequat urna. Morbi justo dolor, ornare sed lorem et, auctor iaculis ligula.
-                              <br><br>
-                              <em>3344 Donec mollis libero<br>at metus luctus 10110</em>
-                              </p>
-                              <ul class="social-icons">
-                                <i><a href="#"><i class="fa fa-facebook"></i></a></i>
-                                <i><a href="#"><i class="fa fa-twitter"></i></a></i>
-                                <i><a href="#"><i class="fa fa-linkedin"></i></a></i>
-                                <i><a href="#"><i class="fa fa-rss"></i></a></i>
-                                <i><a href="#"><i class="fa fa-behance"></i></a></i>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="col-md-8">
-                            <div class="row">
-                              <form id="contact" action="" method="post">
-                                <div class="col-md-6">
-                                  <fieldset>
-                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
-                                  </fieldset>
-                                </div>
-                                <div class="col-md-6">
-                                  <fieldset>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" required="">
-                                  </fieldset>
-                                </div>
-                                <div class="col-md-12">
-                                  <fieldset>
-                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message" required=""></textarea>
-                                  </fieldset>
-                                </div>
-                                <div class="col-md-12">
-                                  <fieldset>
-                                    <button type="submit" id="form-submit" class="btn">Send Message</button>
-                                  </fieldset>
-                                </div>
-                              </form>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>                  
-                </div>
-              </div>
-            </li>
-          </ul> <!-- .cd-hero-slider -->
-        </section> <!-- .cd-hero -->
+					<section id="skills" class="main style3 primary">
+						<div class="content container">
+			            <header>
+			            	<h2>
+			                	<i class="fa fa-cog fa-spin"></i><br />
+			                	my skills
+			                </h2>
+			                <p>
+			            </header>
+			            <div class="row">
+			                
+			                <div class="4u">
+			                    
+			                    <section>
+			                        <font size="20"><span style="color:#E60082" class="icon feature fa-laptop"></span></font>
+			                        <header>
+			                            <h3>Computing</h3>
+			                        </header>
+			                        <font size="2">
+			                        	<p style="font-family: 'Source Sans Pro', sans-serif">
+			                        		I teach machines using: <i class="icon-python"></i>,<br />
+			                        		Keras, TensorFlow, Theano.<br />
+			                        		I sometimes program in: <i class="icon-cplusplus"></i>, <i class="icon-c"></i>,<br />
+			                         		Matlab, LabView, R, ROOT.<br />
+			                        		I have experience using: <i class="fa fa-apple"></i>, <i class="fa fa-linux"></i>, and <i class=" fa fa-windows"></i>.<br />
+			                       			<!-- I write in: $\LaTeX$ and HTML. -->
+			                        	</p>
+			                        </font>
+			                    </section>
+			                    
+			                </div>
+			                <div class="4u">
+			                    
+			                    <section>
+			                        <font size="20"><span style="color:#E60082" class="icon feature fa-bar-chart"></span></font>
+			                        <header>
+			                            <h3>Math</h3>
+			                        </header>
+			                        <font size="2">
+			                        	<p style="font-family: 'Source Sans Pro', sans-serif">
+			                        		Thorough knowledge of Group Theory, <br />
+			                        		Linear Algebra, Complex Analysis, <br />
+			                        		Statistics, and Data Analysis <br />
+			                        		from academic coursework and <br />research experience.
+			                        </p>
+			                    </font>
+			                    </section>
+			                    
+			                </div>
+			                <div class="4u">
+			                    
+			                    <section>
+			                        <font size="20"><span style="color:#E60082" class="icon feature fa-group"></span></font>
+			                        <header>
+			                            <h3>People Skills</h3>
+			                        </header>
+			                        <font size="2">
+			                        <p style="font-family: 'Source Sans Pro', sans-serif">
+			                        Management, Event Planning, Effective <br />
+			                        Communication, Active Listening, <br />
+			                        Leadership, and Flexibility.
+			                        </p>
+			                    </font>
+			                    </section>
+			                    
+			                </div>
+			            </div>
+			            </br>
+			         
+			            <p>Would you like to know more about my skills and experience?</p>
+			            <!-- <ul class="buttons"> -->
+			                <a href="./resume.pdf" class="button style3"><b>My Resume</b></a>
+			                <a href="./MichelaPaganiniCV.pdf" class="button style3"><b>My CV</b></a>
+			            <!-- </ul> -->
+			            </div>
+			            <!-- <a href="#work" class="button style4 down anchored"></a> -->
+			        </section>
 
 
-        <footer>
-          <p>Copyright &copy; 2017 Your Company 
-                                
-        	| Designed by <a href="http://www.templatemo.com" target="_parent"><em>templatemo</em></a></p>
-        </footer>
-    
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+			        <!-- Physics -->
+			        <section id="Physics" class="wrapper alt style2">
+			        	<section class="spotlight">
+			        		<div class="image"><img src="images/atlas_detector.jpg" alt="" /></div><div class="content">
+			        		<h2><a href="./atlas_splash.html">CMS Experiment at CERN</a></h2>
+			        			<p>I'm often located in Geneva, Switzerland where I conduct research for my PhD thesis as a member of the ATLAS collaboration at CERN (European Council for Nuclear Research). I develop software for the optimization of particle identification for the flavor tagging group, and I'm involved in the LHC-wide Machine Learning working group to push for the adoption of modern ML in High Energy Physics and the improvement of our current libraries and tools. My analysis focuses on the search of Higgs boson pairs decaying into $\gamma\gamma$bb.</p>
+			        		</div>
+			        	</section>
+			        	<section class="spotlight">
+			        		<div class="image"><img src="images/lbl.jpg" alt="" /></div><div class="content">
+			        		<h2><a href="./atlas_splash.html">Working at CERN</a></h2>
+			        			<p>When I'm not at CERN, you can find me at LBNL where I'm currently a visiting Research Affiliate in the Physics Division. I collaborate with colleagues from ATLAS and NERSC (the National Energy Research Scientific Computing center) on projects at the intersection of physics and computing. Our most recent joint work focuses on training Generative Adversarial Networks (GANs) to speed up High Energy Physics simulation.</p>
+			        		</div>
+			        	</section>
+			        	<section class="spotlight">
+			        		<div class="image"><img src="images/yalegroup.jpg" alt="" /></div><div class="content">
+			        		<h2><a href="./atlas_splash.html">Texas A&M University</a></h2>
+			        			<p>When I'm not at CERN, you can find at Texas A&M University. I worked with Prof. Alexei Safonov on the design and application of Deep Learning algorithms to develop taggers for the identification of top quarks and gauge bosons in boosted topologies. I am currently a member of Prof. Paul Tipton's group, and I'm working on a qualification task to optimize b-tagging techniques, by including track-jets for Run II at the LHC (Large Hadron Collider). At Yale, I was a Teaching Fellow for 2 years, a McDougal Fellow and a member of the Graduate Student Assembly.</p>
+			        		</div>
+			        	</section>
+			        	<section class="spotlight">
+			        		<div class="image"><img src="images/berkeley.jpg" alt="" /></div><div class="content">
+			        		<h2>UC Berkeley</h2>
+			        			<p>I graduated from Cal in 2013 with a double major in Astrophysics and Physics. During my undergraduate studies, I explored different research fields, including theoretical, observational and computational galactic dynamics, search for extraterrestrial intelligence at the SETI Institute, space weather at the Space Sciences Lab, and antimatter production with the AEgIS experiment at CERN. At Berkeley, I discovered my passion for teaching while tutoring at the Athletic Study Center and designing a new course named <i>Sense &amp; Science &amp; Sensibility</i> with professors Saul Perlmutter, Rob MacCoun and John Campbell.</p>
+			        		</div>
+			        	</section>
+			        </section>
 
-    </body>
+				<!-- Three -->
+					<section id="interests" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Interests</h2>
+								<p>When I'm not hunting Higgs pairs, I entertain myself by participating in outreach events <br />and educating myself and others on topics in science, statistics and technology.</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-terminal">
+									<h3><a href="http://datasauri.github.io">Datasauri</a></h3>
+									<p>Datasauri is a group of young physicists, data scientists and software developers that came together during the 2015 THE Port Hackathon at CERN and Campus Biotech with the intent of solving the problem of organization of humanitarian data.</p>
+								</li>
+								<li class="icon fa-bank">
+									<h3>HackingEDU</h3>
+									<p>I participated in the world largest educational hackathon in San Mateo, CA. My team developed an app that uses the MyScript API as a basis for handwritten mathematical formula recognition from photos using your portable device.</p>
+								</li>
+								<li class="icon fa-paper-plane-o">
+									<h3>TEDxCERN Volunteer</h3>
+									<p>TEDxCERN is one of the many exciting events organized at CERN every year. As an assistant stage manager, I helped the organizers during the event, got the chance to interact with absolutely inspiring speakers in the backstage, and assisted them during rehersals.</p>
+								</li>
+								<li class="icon fa-group">
+									<h3>CERN Guide</h3>
+									<p>As an official CERN guide, I lead tours of tourists and students who visit the laboratory. I conduct visits in English and Italian. My goal is to leave visitors with a better understanding of the importance of fundamental research, and curiousity towards High Energy Physics.</p>
+								</li>
+								<li class="icon fa-moon-o">
+									<h3>Pop Science - Nuit des Chercheurs</h3>
+									<p>A scientifically educated public is an empowered and responsible public. During the Nuit des Chercheurs, CERN volunteers set up a day of events in a large mall with the objective of making physics more accessible and fun for shoppers and passersby.</p>
+								</li>
+								<li class="icon fa-flask">
+									<h3><a href="http://scool.web.cern.ch/">CERN S'Cool Lab</a></h3>
+									<p>S'Cool lab gives me the opportunity to pursue my passion for innovative science education during my residency at CERN. Tutors such as myself welcome middle and high school students, as well as groups of teachers, and lead lab sections in which attendees will perform experiments with cloud chambers, X-rays and electron tubes.</p>
+								</li>
+								<li class="icon fa-graduation-cap">
+									<h3><a href="onlinelearning.html">Lifelong Learning</a></h3>
+									<p>MOOCs are an innovative way of making higher education available to millions of people around the world. While I personally use platforms like <a href="https://www.coursera.org/">Coursera</a> and <a href="https://www.udacity.com/">Udacity</a> to continue learning, I also plan to try to design my own MOOC in the future.</p>
+								<li class="icon fa-binoculars">
+									<h3>Virtual Reality</h3>
+									<p>My next goal is to start creating virtual realities for educational and commercial purposes, to enhance classroom experience and give people access to environments and equipments they wouldn't normally be able to benefit from. I also collaborated on a VR short movie about the painful experience of OCD in simple daily tasks.</p>
+								</li>
+								<li class="icon fa-link">
+									<h3>Web Design</h3>
+									<p>I'm a beginner and I usually start from pre-made templetes, but in my spare time I enjoy designing static websites. My portfolio includes: <a href="http://datasauri.github.io">Datasauri</a>, <a href="https://vaitech.io/">Vai Technologies</a>, and this website.</p>
+								</li>
+
+							</ul>
+						</div>
+					</section>
+
+
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Contact me</h2>
+								<p>Feel free contact me via email or follow me on social media using the links below. </p>
+							</header>
+							<ul class="actions vertical">
+								<li><a href="mailto:luca.pernie@cern.ch" class="button fit special">Email</a></li>
+								<!-- <li><a href="#" class="button fit">Learn More</a></li> -->
+							</ul>
+						</div>
+					</section>
+
+
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+<!--							<li><a href="https://twitter.com/WonderMicky" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+<!--							<li><a href="https://plus.google.com/109356208738453667148" class="icon fa-google-plus"><span class="label">Google+</span></a></li>-->
+							<li><a href="https://www.linkedin.com/in/luca-pernie-36632379" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/lpernie" class="icon fa-github"><span class="label">Github></span></a></li>
+							<li><a href="mailto:luca.pernie@cern.ch" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Luca Pernie</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
