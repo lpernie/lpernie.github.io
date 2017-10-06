@@ -4357,7 +4357,7 @@
 		input[type="submit"],
 		input[type="reset"],
 		.button {
-			background-color: #E60082;
+			background-color: #1300e6;
 			border: 0;
 			border-radius: 3.5em;
 			color: #fff;
@@ -4449,7 +4449,7 @@
             input[type="reset"].style3,
             .button.style3 {
 				background-color: inherit;
-                border: solid 1px #E60082;
+                border: solid 1px #1300e6;
                 color: inherit;
                 border-radius: 0;
             }
