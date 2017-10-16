@@ -69,8 +69,8 @@
 						<div class="inner">
 							<h2>Luca Pernie</h2>
 							<p>Ph.D. in High Energy Physics (CMS experiment @CERN).<br/>
-							Postdoctoral fellow at Texas A&M University,<br/>
-							CMS Alignment, Calibration, and Databases manager,<br/>
+							Postodoctoral fellow at Texas A&M University,<br/>
+							CMS Alignement, Calibration, and Databases manager,<br/>
 							Investigating exotic Higgs decays</p>
 							<!-- <ul class="actions">
 								<li><a href="#" class="button special">Activate</a></li>
@@ -95,7 +95,7 @@
 									I'm also the representative of the alignment team of the CMS muon detector.<br /><br />
 
 									I truly enjoy learning. <br />
-									I also love combat sports, technology, magic, and traveling.<br /><br />
+									I also love combact sports, technology, magic, and traveling.<br /><br />
 								</p>
 							</header>
 							<footer>
@@ -129,7 +129,7 @@
 			                        		I teach machines using: <i class="icon-python"></i>,<br />
 			                        		Keras, TensorFlow, Theano.<br />
 			                        		I have experience using: <i class="fa fa-apple"></i>, <i class="fa fa-linux"></i>, <i class=" fa fa-windows"></i>.<br />
-			                        		I maintain code using: SVN, git<i class="icon-git"></i>
+			                        		I mantain code using: SVN, git<i class="icon-git"></i>
 			                        		<!--I write in: $\LaTeX$ and HTML.-->
 			                        	</p>
 			                        </font>
@@ -163,7 +163,7 @@
 			                        </header>
 			                        <font size="2">
 			                        <p style="font-family: 'Source Sans Pro', sans-serif">
-			                        My responsibilities lead me to develop:<br />
+			                        My responsabilities lead me to develop:<br />
 			                        Leadership, Management, Coordination,<br />
 			                        Event Planning, Active Listening, Team Working,<br />
 			                        Flexibility, Problem Solving, Working under pressure,<br />
@@ -179,9 +179,9 @@
 			            <p>Would you like to know more about my skills and experience?</p>
 			            <!-- <ul class="buttons"> -->
 			                <a href="./resume.pdf" class="button style3"><b>Resume</b></a>
-			                <a href="./CV_Luca_Modern.pdf" class="button style3"><b>CV (academic)</b></a>
-			                <a href="./CV_Luca_Modern_nonAccademic.pdf" class="button style3"><b>CV (non academic)</b></a>
-			                <a href="./Pubblication.pdf" class="button style3"><b>Publications</b></a>
+			                <a href="./CV_Luca_Modern.pdf" class="button style3"><b>CV (accademic)</b></a>
+			                <a href="./CV_Luca_Modern_nonAccademic.pdf" class="button style3"><b>CV (non accademic)</b></a>
+			                <a href="./Pubblication.pdf" class="button style3"><b>Pubblications</b></a>
 			            <!-- </ul> -->
 			            </div>
 			            <!-- <a href="#work" class="button style4 down anchored"></a> -->
@@ -195,25 +195,25 @@
 			        			<p>I'm often located in Geneva, Switzerland where I conduct research at CERN laboratory (European Council for Nuclear Research).
 			        			The CERN laboratory has 22 member states, and it is a dynamical environment where physicists from all the world collaborate together.
 			        			CERN contains the Large Hadron Collider (LHC): the world's largest and most powerful particle accelerator.
-			        			The LHC consists of a 27-kilometers ring of superconducting magnets and accelerating structures.
+			        			The LHC consists of a 27-kilometre ring of superconducting magnets and accelerating structures.
 			        			From here, the beams are made to collide at four locations around the accelerator ring,
 			        			corresponding to the four experiments: ATLAS, CMS, ALICE and LHCb.<br />
-			        			I arrived at CERN to work in CMS for my undergraduate thesis in 2010, and I immediately felt in love with the
-			        			stimulating and enriching environment CERN represents.</p>
+			        			I arrived at CERN to work in CMS for my undergraduate thesis in 2010, and I immediatly felt in love with the
+			        			stimulating and enriching evnironment CERN represents.</p>
 			        		</div>
 			        	</section>
 			        	<section class="spotlight">
 			        		<div class="image"><img src="images/cms.jpg" alt="" /></div><div class="content">
 			        		<h2><a href="https://home.cern/about/experiments/cms">CMS Experiment at CERN</a></h2>
 			        			<p>The Compact Muon Solenoid (CMS) is a general-purpose detector at the Large Hadron Collider (LHC).
-			        			It has a broad physics program ranging from studying the Standard Model (including the Higgs boson)
+			        			It has a broad physics programme ranging from studying the Standard Model (including the Higgs boson)
 			        			to searching for extra dimensions and particles that could make up dark matter.<br />
-			        			Since I entered the CMS collaboration (formed by more than 6000 physicists and engineers) I worked both in the analysis of
+			        			Since I entered the CMS collaboration (formed by more than 6000 physicists and engeneers) I worked both in the analyis of
 			        			the large amount of data collected by the experiment, and in improving the detector performances.
-			        			I serve as the manager for the CMS alignment, calibration and databases area, which ensure the correct and 
+			        			I serve as the manager for the CMS alignment, calibration and databases area, wich ensure the correct and 
 			        			optimal performance of the detector, and its representation in simulation.
 			        			Also, I'm responsible for the alignment of the CMS muon detector that I represent in the muon Detector Performance Group Office.
-			        			I'm active in the Exotic Higgs working group where I lead group of graduate students and postdoc in the search
+			        			I'm active in the Exotic Higgs working group where I lead group of garaduate students and postdoc in the search
 			        			for low mass resonances and dark photons, and in the search for resonant di-Higgs production.
 			        		</div>
 			        	</section>
@@ -244,14 +244,14 @@
 						<div class="inner">
 							<header class="major">
 								<h2>Interests and Activities</h2>
-								<p>When I'm not hunting additional Higgs bosons or coordinating the different CMS detectors conditions,<br/>
+								<p>When I'm not hunting additional Higgs bosons or coodinating the different CMS detectors conditions,<br/>
 								I entertain myself by participating in outreach events and mind-stimulating activities.</p>
 							</header>
 							<ul class="features">
 								<li class="icon fa-terminal">
 									<h3><a href="https://github.com/lpernie/Keras_Tutorial/blob/master/Hhh_optimization.ipynb">Machine Learning</a></h3>
-									<p>I'm really passionate about machine learning application.
-									In my research I applies several machine learning techniques in order to catalog data
+									<p>I'm really passionated about machine learning application.
+									In my research I applies several machine learning techniques in order to catalogue data
 									collected by the experiment, trying continuously to improve performances.
 									I organized a workshop at Texas A&M University about the use of machine learning in science,
 									in order to give to many graduate students and post-docs a fresh view on the topic.
@@ -261,11 +261,11 @@
 								</li>
 								<li class="icon fa-bank">
 									<h3><a href="http://mitchell.tamu.edu/events/seminars/phenomenology/">HEPEC Seminars</a></h3>
-									<p>Since 2015 I organize the High Energy Phenomenology Experiment and Cosmology seminar
-									at Texas A&M University. Speakers from US and Europe are invited to give a seminar
+									<p>Sicne 2015 I organize the High Energy Phenomenology Experiment and Cosmology seminar
+									at Texas A&M University. Speakers from US and Europe are invited tp give a seminar
 									on their research topic in our institute.<br/>
 									The discussion and exchange of ideas that follow such seminars often help graduate students to gain a 
-									broader insight of Physics, and sometimes to build up collaborations across Universities.
+									broader insigh of Physics, and somethimes to build up collaborations across Universities.
 									The organization of the seminars has been a very enriching experience.
 								</li>
 								<li class="icon fa-group">
@@ -273,17 +273,17 @@
 									<p>As an official CERN guide, I lead tours of tourists and students who visit the laboratory.
 									I conduct visits in English, Spanish, and Italian.
 									My goal is to leave visitors with a better understanding of the importance of fundamental research,
-									and curiosity towards High Energy Physics. Since each group of visitors has a different background
+									and curiousity towards High Energy Physics. Since each group of visitors has a different background
 									it is very stimulating to adapt the tour depending on the needs of the guests.</p>
 								</li>
 								<li class="icon fa-paper-plane-o">
 									<h3>Mixed Martial Arts and Magic</h3>
-									<p>To wind down the mind I always associated my academic research with physical training.
+									<p>To defaticate the mind I always associated my academic research with physical training.
 									I started practicing karate in High School, then I start studying kick-boxing and lately I discovered Mixed Martial Arts.
-									With the beginning of my Ph.D. I left athletic competition, but I keep sparring and training.
+									With the beginnin of my Ph.D. I left athletic competition, but I keep sparring and training.
 									I also love running in open spaces.<br/>
 									During the beginning of my Ph.D. I felt in love with the art of deception.
-									I periodically study magic routines (as an amateur).
+									I periodically study magic routines (as an amatour).
 									I love to see in the spectator's eyes the moment he realizes he has been fooled.
 									</p>
 								</li>
